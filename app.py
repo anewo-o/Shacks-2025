@@ -14,6 +14,9 @@ def health():
     """Liveness/health check endpoint."""
     return jsonify({"status": "ok"}), 200
 
+@app.route("/api/hello")
+def hello():
+    return jsonify(message="Hello from Flask!")
 
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=5000, debug=True)
