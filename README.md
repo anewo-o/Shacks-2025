@@ -1,6 +1,6 @@
-# Shacks-2025 — Minimal Flask server
+# Shacks-2025
 
-This repository contains a minimal Flask server used as a starting point.
+Minimal Flask server in backend of a React frontend.
 
 Quick start
 
@@ -25,3 +25,8 @@ The server listens on port 5000. Try:
 Run tests:
 
   python -m unittest discover -v
+
+
+# Don't forget...
+- `git mv` refactoring
+- `pip freeze > requirements.txt` .venv
