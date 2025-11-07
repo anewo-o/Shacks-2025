@@ -1,32 +1,5 @@
 # Shacks-2025
 
-Minimal Flask server in backend of a React frontend.
+You know how to launch a React app and a Flask server, what's more interesting is that we were preparing for the first Université de Sherbrooke hackathon. So we wanted to display a basic map for graph models and algorithms as we had a quantum engineer along with a data scientist, and a hacker for networking load balancers, and a UX designer for a great experience.
 
-Quick start
-
-1. (Optional) Create a virtual environment:
-
-   python -m venv .venv
-   source .venv/bin/activate
-
-2. Install dependencies:
-
-   pip install -r requirements.txt
-
-3. Run the server:
-
-   python app.py
-
-The server listens on port 5000. Try:
-
-  - http://localhost:5000/         -> greeting JSON
-  - http://localhost:5000/health  -> health check
-
-Run tests:
-
-  python -m unittest discover -v
-
-
-# Don't forget...
-- `git mv` refactoring
-- `pip freeze > requirements.txt` .venv
+History didn't go as planned, but this was a nice seed.
